@@ -88,5 +88,6 @@ cc.Class({
          }
          //根据当前加速度更新Player节点位置
          this.node.x += this.xSpeed * dt;
+         //限制主角移动范围不能超出屏幕
      },
 });
