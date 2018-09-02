@@ -1,0 +1,113 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -8,
+      "y": -8,
+      "width": 1616,
+      "height": 876,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 346.4375,
+                "type": "panel",
+                "width": 259.234375
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 399.5625,
+                "type": "panel",
+                "width": 259.234375
+              }
+            ],
+            "height": 749,
+            "type": "dock-v",
+            "width": 259.234375
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 438.828125,
+                "type": "panel",
+                "width": 814.03125
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 307.171875,
+                "type": "panel",
+                "width": 814.03125
+              }
+            ],
+            "height": 749,
+            "type": "dock-v",
+            "width": 814.03125
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 749,
+            "type": "panel",
+            "width": 514.71875
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "console",
+        "timeline",
+        "inspector",
+        "assets",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "node-library": {
+      "x": 482,
+      "y": 111,
+      "width": 316,
+      "height": 518
+    },
+    "preferences": {
+      "x": 342,
+      "y": 101,
+      "width": 600,
+      "height": 564
+    },
+    "project-settings": {
+      "x": 252,
+      "y": 89,
+      "width": 600,
+      "height": 564
+    },
+    "builder": {
+      "x": -8,
+      "y": -8,
+      "width": 1296,
+      "height": 776
+    }
+  }
+}
