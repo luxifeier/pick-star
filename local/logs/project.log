@@ -1,69 +1,55 @@
-2018-09-02T06:49:56.481Z - normal: Load ~/.CocosCreator/settings.json
-2018-09-02T06:49:56.489Z - normal: checking language setting...
-2018-09-02T06:49:56.490Z - normal: Language: zh
-2018-09-02T06:50:02.772Z - success: protocol editor-framework registered
-2018-09-02T06:50:02.772Z - success: protocol app registered
-2018-09-02T06:50:02.772Z - success: protocol theme registered
-2018-09-02T06:50:02.772Z - success: protocol packages registered
-2018-09-02T06:50:02.772Z - success: protocol unpack registerred
-2018-09-02T06:50:02.772Z - success: protocol disable-commonjs registerred
-2018-09-02T06:50:02.931Z - normal: connected!
-2018-09-02T06:50:02.934Z - normal: Check project C:\Users\Administrator\Documents\start_project\start_project
-2018-09-02T06:50:02.954Z - normal: Initializing project C:\Users\Administrator\Documents\start_project\start_project
-2018-09-02T06:50:02.962Z - normal: Initializing Cocos2d
-2018-09-02T06:50:04.776Z - normal: Initializing Asset Database
-2018-09-02T06:50:04.858Z - success: protocol uuid registerred
-2018-09-02T06:50:04.858Z - success: protocol db registerred
-2018-09-02T06:50:04.858Z - success: protocol thumbnail registerred
-2018-09-02T06:50:04.858Z - normal: Loading editor/builtin packages
-2018-09-02T06:50:05.108Z - success: assets loaded
-2018-09-02T06:50:05.111Z - success: builder loaded
-2018-09-02T06:50:05.114Z - success: cocos-analytics loaded
-2018-09-02T06:50:05.117Z - success: console loaded
-2018-09-02T06:50:05.153Z - success: fb-instant-games loaded
-2018-09-02T06:50:05.159Z - success: hierarchy loaded
-2018-09-02T06:50:05.161Z - success: inspector loaded
-2018-09-02T06:50:05.163Z - success: keystore loaded
-2018-09-02T06:50:05.167Z - success: node-library loaded
-2018-09-02T06:50:05.168Z - success: package-asset loaded
-2018-09-02T06:50:05.170Z - success: preferences loaded
-2018-09-02T06:50:05.171Z - success: project-exporter loaded
-2018-09-02T06:50:05.188Z - success: project-importer loaded
-2018-09-02T06:50:05.191Z - success: project-settings loaded
-2018-09-02T06:50:05.194Z - success: ui-kit loaded
-2018-09-02T06:50:05.196Z - success: scene loaded
-2018-09-02T06:50:05.197Z - success: sprite-editor loaded
-2018-09-02T06:50:05.200Z - success: store loaded
-2018-09-02T06:50:05.204Z - success: timeline loaded
-2018-09-02T06:50:05.204Z - normal: Loading builtin packages
-2018-09-02T06:50:05.298Z - success: asset-db-debugger loaded
-2018-09-02T06:50:05.301Z - success: code-editor loaded
-2018-09-02T06:50:05.302Z - success: color-picker loaded
-2018-09-02T06:50:05.302Z - success: jsb-adapter loaded
-2018-09-02T06:50:05.306Z - success: package-manager loaded
-2018-09-02T06:50:05.669Z - success: qqplay-adapter loaded
-2018-09-02T06:50:05.697Z - success: sdkbox loaded
-2018-09-02T06:50:05.751Z - success: tester loaded
-2018-09-02T06:50:05.779Z - success: ui-grid loaded
-2018-09-02T06:50:05.781Z - success: ui-kit-preview-extra loaded
-2018-09-02T06:50:05.784Z - success: ui-kit-preview loaded
-2018-09-02T06:50:05.787Z - success: ui-tree loaded
-2018-09-02T06:50:05.788Z - success: weapp-adapter loaded
-2018-09-02T06:50:08.615Z - normal: Loading packages
-2018-09-02T06:50:08.623Z - normal: Watching packages
-2018-09-02T06:50:10.365Z - normal: Run Application
-2018-09-02T06:50:21.208Z - success: preview server running at http://localhost:7456
-2018-09-02T08:19:55.946Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:9406
-2018-09-02T08:24:13.326Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:11320
-2018-09-02T08:24:13.328Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:11322
-2018-09-02T08:27:04.252Z - info: shutdown preview server
-2018-09-02T08:27:11.655Z - error: TypeError: Cannot read property 'nativeWin' of null
-    at Object.callback (C:\CocosCreator\resources\app.asar\editor-framework\lib\main\ipc.js:1:4453)
-    at Timeout.T.setTimeout [as _onTimeout] (C:\CocosCreator\resources\app.asar\editor-framework\lib\main\ipc.js:1:639)
-    at ontimeout (timers.js:386:14)
-    at tryOnTimeout (timers.js:250:5)
-    at Timer.listOnTimeout (timers.js:214:5)
-    at process.on.e (C:\CocosCreator\resources\app.asar\editor\core\editor-init.js:1:345)
-    at emitOne (events.js:101:20)
-    at process.emit (events.js:191:7)
-    at process._fatalException (bootstrap_node.js:308:26)
+2018-09-02T14:36:14.670Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-02T14:36:14.679Z - normal: checking language setting...
+2018-09-02T14:36:14.679Z - normal: Language: zh
+2018-09-02T14:36:17.755Z - success: protocol editor-framework registered
+2018-09-02T14:36:17.756Z - success: protocol app registered
+2018-09-02T14:36:17.756Z - success: protocol theme registered
+2018-09-02T14:36:17.756Z - success: protocol packages registered
+2018-09-02T14:36:17.756Z - success: protocol unpack registerred
+2018-09-02T14:36:17.757Z - success: protocol disable-commonjs registerred
+2018-09-02T14:36:17.903Z - normal: connected!
+2018-09-02T14:36:17.912Z - normal: Check project C:\Users\ibm\Documents\start_project\start_project
+2018-09-02T14:36:17.965Z - normal: Initializing project C:\Users\ibm\Documents\start_project\start_project
+2018-09-02T14:36:17.974Z - normal: Initializing Cocos2d
+2018-09-02T14:36:20.257Z - normal: Initializing Asset Database
+2018-09-02T14:36:20.385Z - success: protocol uuid registerred
+2018-09-02T14:36:20.385Z - success: protocol db registerred
+2018-09-02T14:36:20.386Z - success: protocol thumbnail registerred
+2018-09-02T14:36:20.386Z - normal: Loading editor/builtin packages
+2018-09-02T14:36:20.779Z - success: assets loaded
+2018-09-02T14:36:20.784Z - success: builder loaded
+2018-09-02T14:36:20.788Z - success: cocos-analytics loaded
+2018-09-02T14:36:20.793Z - success: console loaded
+2018-09-02T14:36:20.866Z - success: fb-instant-games loaded
+2018-09-02T14:36:20.874Z - success: hierarchy loaded
+2018-09-02T14:36:20.880Z - success: inspector loaded
+2018-09-02T14:36:20.882Z - success: keystore loaded
+2018-09-02T14:36:20.889Z - success: node-library loaded
+2018-09-02T14:36:20.892Z - success: package-asset loaded
+2018-09-02T14:36:20.895Z - success: preferences loaded
+2018-09-02T14:36:20.897Z - success: project-exporter loaded
+2018-09-02T14:36:20.925Z - success: project-importer loaded
+2018-09-02T14:36:20.928Z - success: project-settings loaded
+2018-09-02T14:36:20.933Z - success: ui-kit loaded
+2018-09-02T14:36:20.938Z - success: scene loaded
+2018-09-02T14:36:20.940Z - success: sprite-editor loaded
+2018-09-02T14:36:20.946Z - success: store loaded
+2018-09-02T14:36:20.953Z - success: timeline loaded
+2018-09-02T14:36:20.953Z - normal: Loading builtin packages
+2018-09-02T14:36:21.210Z - success: asset-db-debugger loaded
+2018-09-02T14:36:21.246Z - success: code-editor loaded
+2018-09-02T14:36:21.248Z - success: color-picker loaded
+2018-09-02T14:36:21.250Z - success: jsb-adapter loaded
+2018-09-02T14:36:21.258Z - success: package-manager loaded
+2018-09-02T14:36:21.990Z - success: qqplay-adapter loaded
+2018-09-02T14:36:22.009Z - success: sdkbox loaded
+2018-09-02T14:36:22.066Z - success: tester loaded
+2018-09-02T14:36:22.077Z - success: ui-grid loaded
+2018-09-02T14:36:22.093Z - success: ui-kit-preview-extra loaded
+2018-09-02T14:36:22.110Z - success: ui-kit-preview loaded
+2018-09-02T14:36:22.131Z - success: ui-tree loaded
+2018-09-02T14:36:22.133Z - success: weapp-adapter loaded
+2018-09-02T14:36:24.903Z - normal: Loading packages
+2018-09-02T14:36:24.921Z - normal: Watching packages
+2018-09-02T14:36:25.843Z - normal: Run Application
+2018-09-02T14:36:30.563Z - success: preview server running at http://localhost:7456
