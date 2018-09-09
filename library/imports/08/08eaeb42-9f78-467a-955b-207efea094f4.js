@@ -27,6 +27,18 @@ cc.Class({
             type: cc.AudioClip
         }
     },
+    startMoveAt: function startMoveAt() {
+        //开启触屏监听
+        this.onMove();
+        //启用Player组件
+        this.enabled = true;
+        //设置Player组件xSpeed属性为0
+        this.xSpeed = 0;
+        //初始化Player位置
+        this.node.setPosition(cc.v2(0, -144));
+        //开始跳动
+        this.node.runAction(this.JumpAction);
+    },
     setJumpAction: function setJumpAction() {
         //向上跳跃
         var jumpUp = cc.moveBy(this.jumpDuration, cc.v2(0, this.jumpHeight)).easing(cc.easeCubicActionIn());
@@ -63,8 +75,9 @@ cc.Class({
     },
     onLoad: function onLoad() {
         //场景加载后执行onLoad()方法
+        //初始化Player节点动作
         this.JumpAction = this.setJumpAction(); //返回执行的动作
-        this.node.runAction(this.JumpAction); //执行并返回该执行的动作。该节点将会变成动作的目标
+        // this.node.runAction(this.JumpAction);//执行并返回该执行的动作。该节点将会变成动作的目标
 
         //初始化加速度方向开关
         this.accLeft = false;
@@ -72,7 +85,8 @@ cc.Class({
 
         //主角当前水平方向的速度
         this.xSpeed = 0;
-
+    },
+    onMove: function onMove() {
         //初始化触屏监听
         this.node.parent.on('touchstart', this.onTouchStart, this);
         this.node.parent.on('touchend', this.onTouchEnd, this);

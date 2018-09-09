@@ -21,18 +21,17 @@ cc.Class({
         //销毁当前获取的星星
         this.node.destroy();
     },
-    //  onLoad () {
-        
-    //  },
+    //   onLoad () {
+    //   },
      update (dt) {
         //根据 Game 脚本中的计时器更新星星的透明度
         var opacityRatio = 1 - this.game.timer/this.game.starDuration;
         var minOpacity = 50;
         this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));
          //每帧判断主角与星星之间的距离如果小于pickRadius值，调用onPicked()
-         if(this.getPlayerDistance() < this.pickRadius){
+        if(this.getPlayerDistance() < this.pickRadius){
             //调用onPicked()
-            this.onPicked();
-         }
+           this.onPicked();
+        }
      },
 });

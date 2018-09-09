@@ -31,9 +31,20 @@ cc.Class({
             default: null,
             type: cc.Label
         },
+        //得分音效引用
         scoreAudio: {
             default: null,
             type: cc.AudioClip
+        },
+        //button 节点引用
+        btnNote: {
+            default: null,
+            type: cc.Node
+        },
+        //GameOver节点引用
+        gameOverNote: {
+            default: null,
+            type: cc.Node
         }
     },
 
@@ -43,12 +54,23 @@ cc.Class({
         //初始化计时器
         this.timer = 0;
         this.starDuration = 0;
-        //绘制一个新的星星
-        this.spawnNewStar();
         //初始化score
         this.score = 0;
+        //隐藏GameOver节点,禁用Game组件
+        this.gameOverNote.active = false;
+        this.enabled = false;
     },
 
+    //play按钮被点击后，响应onStartGame()
+    onStartGame: function onStartGame() {
+        this.enabled = true;
+        //将button按钮移出可视区域
+        this.btnNote.x = 3000;
+        //Player开始运动
+        this.player.getComponent('Player').startMoveAt();
+        //星星随机显示
+        this.spawnNewStar();
+    },
     gainScore: function gainScore() {
         //计算得分
         this.score += 1; //每摘到一个星星score加一
@@ -58,8 +80,13 @@ cc.Class({
     },
     gameOver: function gameOver() {
         //游戏结束
-        this.player.stopAllActions(); //停止Player节点的跳跃动作
-        cc.director.loadScene('game'); //重新加载场景
+        //停止Player节点的跳跃动作
+        this.player.stopAllActions();
+        this.player.getComponent('Player').xSpeed = 0;
+        this.player.getComponent('Player').onDestroy();
+        this.gameOverNote.active = true;
+        //延迟1秒重新加载场景
+        setTimeout("cc.director.loadScene('game')", 1000);
     },
     spawnNewStar: function spawnNewStar() {
         //使用预制资源生成一个新的节点
