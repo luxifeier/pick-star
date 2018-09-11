@@ -19,14 +19,14 @@
     "portrait": false,
     "upsideDown": false
   },
-  "packageName": "org.cocos2d.start_project",
+  "packageName": "org.cocos2d.pickstar",
   "privateKey": "",
   "qqplay": {
     "REMOTE_SERVER_ROOT": "",
     "orientation": "portrait"
   },
   "startScene": "d6150f91-2d99-47c3-a0ca-a3bbf003ead2",
-  "title": "start_project",
+  "title": "pick-star",
   "webOrientation": "auto",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",

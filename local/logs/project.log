@@ -1,114 +1,55 @@
-2018-09-09T09:58:33.070Z - normal: Load ~/.CocosCreator/settings.json
-2018-09-09T09:58:33.078Z - normal: checking language setting...
-2018-09-09T09:58:33.078Z - normal: Language: zh
-2018-09-09T09:58:36.066Z - success: protocol editor-framework registered
-2018-09-09T09:58:36.066Z - success: protocol app registered
-2018-09-09T09:58:36.066Z - success: protocol theme registered
-2018-09-09T09:58:36.067Z - success: protocol packages registered
-2018-09-09T09:58:36.067Z - success: protocol unpack registerred
-2018-09-09T09:58:36.067Z - success: protocol disable-commonjs registerred
-2018-09-09T09:58:36.204Z - normal: connected!
-2018-09-09T09:58:36.213Z - normal: Check project C:\Users\ibm\Documents\start_project\start_project
-2018-09-09T09:58:36.256Z - normal: Initializing project C:\Users\ibm\Documents\start_project\start_project
-2018-09-09T09:58:36.266Z - normal: Initializing Cocos2d
-2018-09-09T09:58:38.423Z - normal: Initializing Asset Database
-2018-09-09T09:58:38.546Z - success: protocol uuid registerred
-2018-09-09T09:58:38.546Z - success: protocol db registerred
-2018-09-09T09:58:38.546Z - success: protocol thumbnail registerred
-2018-09-09T09:58:38.546Z - normal: Loading editor/builtin packages
-2018-09-09T09:58:38.933Z - success: assets loaded
-2018-09-09T09:58:38.938Z - success: builder loaded
-2018-09-09T09:58:38.942Z - success: cocos-analytics loaded
-2018-09-09T09:58:38.948Z - success: console loaded
-2018-09-09T09:58:39.017Z - success: fb-instant-games loaded
-2018-09-09T09:58:39.026Z - success: hierarchy loaded
-2018-09-09T09:58:39.031Z - success: inspector loaded
-2018-09-09T09:58:39.034Z - success: keystore loaded
-2018-09-09T09:58:39.042Z - success: node-library loaded
-2018-09-09T09:58:39.045Z - success: package-asset loaded
-2018-09-09T09:58:39.047Z - success: preferences loaded
-2018-09-09T09:58:39.049Z - success: project-exporter loaded
-2018-09-09T09:58:39.078Z - success: project-importer loaded
-2018-09-09T09:58:39.082Z - success: project-settings loaded
-2018-09-09T09:58:39.087Z - success: ui-kit loaded
-2018-09-09T09:58:39.091Z - success: scene loaded
-2018-09-09T09:58:39.094Z - success: sprite-editor loaded
-2018-09-09T09:58:39.099Z - success: store loaded
-2018-09-09T09:58:39.106Z - success: timeline loaded
-2018-09-09T09:58:39.106Z - normal: Loading builtin packages
-2018-09-09T09:58:39.361Z - success: asset-db-debugger loaded
-2018-09-09T09:58:39.397Z - success: code-editor loaded
-2018-09-09T09:58:39.399Z - success: color-picker loaded
-2018-09-09T09:58:39.401Z - success: jsb-adapter loaded
-2018-09-09T09:58:39.409Z - success: package-manager loaded
-2018-09-09T09:58:40.058Z - success: qqplay-adapter loaded
-2018-09-09T09:58:40.077Z - success: sdkbox loaded
-2018-09-09T09:58:40.135Z - success: tester loaded
-2018-09-09T09:58:40.146Z - success: ui-grid loaded
-2018-09-09T09:58:40.162Z - success: ui-kit-preview-extra loaded
-2018-09-09T09:58:40.179Z - success: ui-kit-preview loaded
-2018-09-09T09:58:40.199Z - success: ui-tree loaded
-2018-09-09T09:58:40.201Z - success: weapp-adapter loaded
-2018-09-09T09:58:42.792Z - normal: Loading packages
-2018-09-09T09:58:42.804Z - normal: Watching packages
-2018-09-09T09:58:43.663Z - normal: Run Application
-2018-09-09T09:58:46.606Z - success: preview server running at http://localhost:7456
-2018-09-09T10:35:09.051Z - failed: [db-task][sync-changes] Failed to delete imported assets of a23235d1-15db-4b95-8439-a2e005bfff91 during clearImports, message: Error: EPERM: operation not permitted, scandir 'C:\Users\ibm\Documents\start_project\start_project\library\imports\a2'
-2018-09-09T10:41:19.973Z - error: Can not declare Game.gameOver method, it is already defined in the properties of Game.
-    at Object.cc.errorID (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:166:16)
-    at Object.exports.doValidateMethodWithProps_DEV (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:245:24)
-    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:260:26)
-    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:709:33)
-    at __define (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:7:4)
-    at C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:122:13
-    at Object.<anonymous> (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:129:11)
-    at Object.<anonymous> (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:132:3)
-    at Module._compile (module.js:571:32)
-2018-09-09T10:43:35.430Z - error: Can not declare Game.gameOver method, it is already defined in the properties of Game.
-    at Object.cc.errorID (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:166:16)
-    at Object.exports.doValidateMethodWithProps_DEV (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:245:24)
-    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:260:26)
-    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:709:33)
-    at __define (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:7:4)
-    at C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:124:13
-    at Object.<anonymous> (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:131:11)
-    at Object.<anonymous> (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:134:3)
-    at Module._compile (module.js:571:32)
-2018-09-09T10:46:57.299Z - error: Can not declare Game.gameOver method, it is already defined in the properties of Game.
-    at Object.cc.errorID (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:166:16)
-    at Object.exports.doValidateMethodWithProps_DEV (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:245:24)
-    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:260:26)
-    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:709:33)
-    at __define (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:7:4)
-    at C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:124:13
-    at Object.<anonymous> (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:131:11)
-    at Object.<anonymous> (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:134:3)
-    at Module._compile (module.js:571:32)
-2018-09-09T10:48:30.220Z - error: Can not declare Game.gameOver method, it is already defined in the properties of Game.
-    at Object.cc.errorID (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:166:16)
-    at Object.exports.doValidateMethodWithProps_DEV (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:245:24)
-    at Object.exports.validateMethodWithProps (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:260:26)
-    at Object.CCClass [as Class] (C:\CocosCreator\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:709:33)
-    at __define (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:7:4)
-    at C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:124:13
-    at Object.<anonymous> (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:131:11)
-    at Object.<anonymous> (C:\Users\ibm\Documents\start_project\start_project\temp\quick-scripts\assets\scripts\Game.js:134:3)
-    at Module._compile (module.js:571:32)
-2018-09-09T11:46:29.445Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\ibm\Documents\start_project\start_project\assets\scripts\Game.js, message: Compile error: SyntaxError: C:/Users/ibm/Documents/start_project/start_project/assets/scripts/Game.js: Unexpected token (77:32)
-  75 |        this.player.stopAllActions();
-  76 |        this.player.getComponent('Player').xSpeed = 0;
-> 77 |        this.player.getComponent(;Player).onDestroy();
-     |                                 ^
-  78 |        this.gameOverNote.active = true;
-  79 |        this.btnNote.x = 0;
-  80 |      },
-    at Parser.pp$5.raise (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$3.parseExprAtom (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3750:12)
-    at Parser.pp$3.parseExprSubscripts (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3494:19)
-    at Parser.pp$3.parseMaybeUnary (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3474:19)
-    at Parser.pp$3.parseExprOps (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3404:19)
-    at Parser.pp$3.parseMaybeConditional (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3381:19)
-    at Parser.pp$3.parseMaybeAssign (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3344:19)
-    at Parser.pp$3.parseExprListItem (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4312:16)
-    at Parser.pp$3.parseCallExpressionArguments (C:\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3573:20)
+2018-09-11T13:19:37.009Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-11T13:19:37.015Z - normal: checking language setting...
+2018-09-11T13:19:37.015Z - normal: Language: zh
+2018-09-11T13:19:39.927Z - success: protocol editor-framework registered
+2018-09-11T13:19:39.927Z - success: protocol app registered
+2018-09-11T13:19:39.927Z - success: protocol theme registered
+2018-09-11T13:19:39.927Z - success: protocol packages registered
+2018-09-11T13:19:39.928Z - success: protocol unpack registerred
+2018-09-11T13:19:39.928Z - success: protocol disable-commonjs registerred
+2018-09-11T13:19:40.081Z - normal: connected!
+2018-09-11T13:19:40.086Z - normal: Check project C:\Users\ibm\Documents\start_project\start_project
+2018-09-11T13:19:40.150Z - normal: Initializing project C:\Users\ibm\Documents\start_project\start_project
+2018-09-11T13:19:40.154Z - normal: Initializing Cocos2d
+2018-09-11T13:19:42.137Z - normal: Initializing Asset Database
+2018-09-11T13:19:42.260Z - success: protocol uuid registerred
+2018-09-11T13:19:42.260Z - success: protocol db registerred
+2018-09-11T13:19:42.260Z - success: protocol thumbnail registerred
+2018-09-11T13:19:42.260Z - normal: Loading editor/builtin packages
+2018-09-11T13:19:42.646Z - success: assets loaded
+2018-09-11T13:19:42.651Z - success: builder loaded
+2018-09-11T13:19:42.656Z - success: cocos-analytics loaded
+2018-09-11T13:19:42.661Z - success: console loaded
+2018-09-11T13:19:42.737Z - success: fb-instant-games loaded
+2018-09-11T13:19:42.745Z - success: hierarchy loaded
+2018-09-11T13:19:42.750Z - success: inspector loaded
+2018-09-11T13:19:42.753Z - success: keystore loaded
+2018-09-11T13:19:42.759Z - success: node-library loaded
+2018-09-11T13:19:42.762Z - success: package-asset loaded
+2018-09-11T13:19:42.764Z - success: preferences loaded
+2018-09-11T13:19:42.767Z - success: project-exporter loaded
+2018-09-11T13:19:42.792Z - success: project-importer loaded
+2018-09-11T13:19:42.795Z - success: project-settings loaded
+2018-09-11T13:19:42.799Z - success: ui-kit loaded
+2018-09-11T13:19:42.804Z - success: scene loaded
+2018-09-11T13:19:42.806Z - success: sprite-editor loaded
+2018-09-11T13:19:42.811Z - success: store loaded
+2018-09-11T13:19:42.817Z - success: timeline loaded
+2018-09-11T13:19:42.817Z - normal: Loading builtin packages
+2018-09-11T13:19:43.039Z - success: asset-db-debugger loaded
+2018-09-11T13:19:43.076Z - success: code-editor loaded
+2018-09-11T13:19:43.078Z - success: color-picker loaded
+2018-09-11T13:19:43.079Z - success: jsb-adapter loaded
+2018-09-11T13:19:43.085Z - success: package-manager loaded
+2018-09-11T13:19:43.654Z - success: qqplay-adapter loaded
+2018-09-11T13:19:43.674Z - success: sdkbox loaded
+2018-09-11T13:19:43.731Z - success: tester loaded
+2018-09-11T13:19:43.740Z - success: ui-grid loaded
+2018-09-11T13:19:43.767Z - success: ui-kit-preview-extra loaded
+2018-09-11T13:19:43.791Z - success: ui-kit-preview loaded
+2018-09-11T13:19:43.811Z - success: ui-tree loaded
+2018-09-11T13:19:43.813Z - success: weapp-adapter loaded
+2018-09-11T13:19:46.338Z - normal: Loading packages
+2018-09-11T13:19:46.349Z - normal: Watching packages
+2018-09-11T13:19:47.335Z - normal: Run Application
+2018-09-11T13:19:49.782Z - success: preview server running at http://localhost:7456

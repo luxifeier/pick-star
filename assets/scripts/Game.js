@@ -77,7 +77,10 @@ cc.Class({
        this.player.getComponent('Player').onDestroy();
        this.gameOverNote.active = true;
        //延迟1秒重新加载场景
-       setTimeout("cc.director.loadScene('game')",1000);
+       this.scheduleOnce(this.reLoad,1);
+     },
+     reLoad:function(){
+        cc.director.loadScene('game');
      },
      spawnNewStar:function(){
          //使用预制资源生成一个新的节点
